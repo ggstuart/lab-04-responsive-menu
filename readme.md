@@ -1,75 +1,17 @@
-# CTEC3905 Assignment
+# A responsive menu
 
-This is very basic boilerplate code for you to get started with.
+In this lab we will explore media queries and mobile first development.
+The code builds on previous labs.
+We will build a flexbox menu and add interaction using javascript event listeners.
+But we will also introduce the new concepts:
 
-## index.html
+- media queries (to style pages under different conditions)
+- mobile-first development (to keep the design process simple)
 
-The `index.html` file includes a basic template with a link to the `css/styles.css` file and a script tag after the main content which links to the `js/scripts.js` file.
+## Cloning the starter-code repository
 
-```
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>P-Number</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  
-  <h1>Hello World</h1>
-
-  <script src="js/scripts.js"></script>
-</body>
-</html>
-```
-
-## css/styles.css
-
-The `css/styles.css` file contains a basic starting template for a responsive page.
+We will begin by cloning the starter-code that you have been given for your assignment.
 
 ```
-/* MOBILE AND GLOBAL STYLES */
-
-/* applies to screens smaller than 500px (first breakpoint) */
-/* and above unless overwritten below */
-
-body {
-  background: #fcc;
-} 
-
-
-
-/* TABLET STYLES */
-
-@media screen and (min-width: 500px) {
-
-  /* applies to screens wider than 499px */
-  
-  body {
-    background: #cfc;
-  } 
-}
-
-
-
-/* DESKTOP STYLES */
-
-@media screen and (min-width: 1000px) {
-
-  /* applies to screens wider than 999px */
-
-  body {
-    background: #ccf;
-  } 
-}
-
-```
-
-## js/scripts.js
-
-The `js/scripts.js` file contains a simple console.log statement to confirm that it is being executed.
-
-```
-console.log("hello");
+git clone https://github.com/CTEC3905/starter-code.git
 ```
