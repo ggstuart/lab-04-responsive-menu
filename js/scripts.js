@@ -6,8 +6,10 @@ const toggleMenu = () => { menuNav.classList.toggle('open')}
 menuToggle.addEventListener('click', toggleMenu);
 
 
-function toggleHighlight() {
-  title.classList.toggle('highlight');
+function toggleHighlight(ev) {
+  ev.target.classList.toggle('highlight');
 }
 
-title.addEventListener('click', toggleHighlight);
+for(element of document.getElementsByClassName('highlightable')) {
+  element.addEventListener('dblclick', toggleHighlight);
+}
