@@ -45,3 +45,38 @@ Now to set the url of the remote, `cd` into the repository directory on the comm
 ```
 git clone set-url origin https://github.com/{replace_with_your_username}/{and_your_repository_name}.git
 ```
+Git doesn't provide any feedback if this works so you can test that this worked with the following command.
+
+```
+git remote -v
+```
+
+## 3. Introducing media queries
+
+Open the folder in Atom and look at the breakpoints in the CSS file - you’ll see the mobile and global styles at the top, then two media queries beginning @media.
+
+The first media query is for screen widths over 500px and the next for screen widths over 1000px.
+If you try this out in the browser by adjusting the window width, you’ll see the background colour change for each of the three widths.
+Note that the size of the chrome developer tools (f12) panel can be adjusted to simulate devices with very narrow widths.
+
+## 4. A simple menu
+
+Size your browser window so it is narrow enough to show the pink (mobile width) background.
+Create a 3-item menu in HTML and style it to appear nicely using only global styles.
+Don't place any styles in the media queries for now.
+
+```
+<nav>
+  <a href="#">one</a>
+  <a href="#">two</a>
+  <a href="#">three</a>
+</nav>
+```
+
+Make sure you use `display: flex` and add `flex-direction: column` to the nav styles to make the mobile menu vertical.
+
+Now add a new div element before the nav tag and give it a class attribute of `menu`. It should contain the word ‘menu’ and nothing else.
+This will become a clickable area that will open and close the menu on mobile devices.
+By hiding the menu on mobile devices we create more space to display content.
+
+In the mobile and global styles (top of the CSS file) add a style block for your .menu class, with a dark background-color, a lighter color for the text, and line-height: 2em just to give it some height.
