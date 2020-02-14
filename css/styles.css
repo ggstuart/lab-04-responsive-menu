@@ -92,6 +92,10 @@ h1 {
   .menu {
     display: none;
   }
+
+  nav a, header, main {
+    padding: 0.5em;
+  }
 }
 
 
