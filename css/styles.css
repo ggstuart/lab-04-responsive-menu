@@ -17,6 +17,7 @@ header {
 header h1 {
   margin: 0;
   font-size: 1em;
+  color: #0aa;
 }
 
 nav, header {
@@ -30,7 +31,7 @@ nav {
 }
 
 nav a, header, main {
-  padding: 0.5em;
+  padding: 1.5em;
 }
 
 nav a, header {
@@ -70,7 +71,7 @@ h1 {
 }
 
 /* TABLET STYLES */
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 500px) {
 
   /* applies to screens wider than 499px */
 
@@ -104,5 +105,9 @@ h1 {
   body {
     background: #0dd;
     color: #066;
+  }
+
+  nav {
+    justify-content: space-around;
   }
 }
