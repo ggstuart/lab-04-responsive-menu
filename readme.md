@@ -26,3 +26,24 @@ Then clone the `starter-code` repository.
 ```
 git clone https://github.com/CTEC3905/starter-code.git
 ```
+
+
+## 2. Make the repository your own
+
+Now rename the `starter-code` folder to `lab-04` or similar.
+This is your code for todays lab.
+
+The cloned repository will have a `remote` called `origin` already configured.
+We are now going to change this remote so that it points to a repository on your github account.
+
+Create a new repository on github (name it the same as the folder) and copy the url for cloning.
+
+The url will look something like this:
+
+`https://github.com/{your username}/{your repository name}.git`
+
+Now to set the url of the remote, `cd` into the repository directory on the command line and issue this command:
+
+```
+git clone set-url origin REPLACE_WITH_YOUR_GITHUB_URL.git
+```
