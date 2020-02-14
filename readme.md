@@ -43,5 +43,5 @@ The url will look something like this:
 Now to set the url of the remote, `cd` into the repository directory on the command line and issue this command:
 
 ```
-git clone set-url origin REPLACE_WITH_YOUR_GITHUB_URL.git
+git clone set-url origin https://github.com/{replace_with_your_username}/{and_your_repository_name}.git
 ```
