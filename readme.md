@@ -17,9 +17,7 @@ Cloning the repository will create a new folder containing the repository.
 On a command line (e.g. 'git bash'), make sure you are located in the folder where you are storing the lab code for this module.
 This folder will probably contain a series of folders from previous labs.
 
-For example:
-
-`cd H:/CTEC3905/`
+For example: `cd H:/CTEC3905/`
 
 Then clone the `starter-code` repository.
 
@@ -30,10 +28,10 @@ git clone https://github.com/CTEC3905/starter-code.git
 
 ## 2. Make the repository your own
 
-Now rename the `starter-code` folder to `lab-04` or similar.
+Now rename the `starter-code` folder to "lab-04" or similar.
 This is your code for todays lab.
 
-The cloned repository will have a `remote` called `origin` already configured.
+The cloned repository will have a `remote` called `origin` already configured to point to the source repository on github.
 We are now going to change this remote so that it points to a repository on your github account.
 
 Create a new repository on github (name it the same as the folder) and copy the url for cloning.
